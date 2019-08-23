@@ -4,7 +4,7 @@ class Application
     resp = Rack::Response.new
     
     num_1 = Kernel.rand(1)
-    num_2 = Kernel.rand(1..2)
+    num_2 = Kernel.rand(1)
     num_3 = Kernel.rand(1..2)
     
     if num_1 == num_2 && num_2 == num_3
